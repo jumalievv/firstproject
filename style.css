@@ -1,4 +1,4 @@
-.rrr{
+.but{
     size: 100px;
     display: flex;
     border-radius: 50px;
@@ -27,18 +27,10 @@
 
 .header{
     display: flex;
-    background-color:rgb(9, 185, 156)  ;
+    background-color:rgb(13, 200, 156)  ;
     justify-content: center;
 }
 
-.gmail {
-    display: flex;
-    flex-wrap: wrap;
-    color: white; 
-    position: absolute;
-
-    
-}
 
 .number{
  
@@ -47,64 +39,181 @@
     position: absolute;
     width: 110px;
     height: 20px;
-    color: rgb(9, 185, 156);
+    color:rgb(13, 200, 156) ;
     right: 50px;
     
+    
 }
+
 
 .header2{
     display: flex;
     flex-direction: row;
-    color: rgb(9, 185, 156) ;
+    color: rgb(13, 200, 156)  ;
     justify-content: space-evenly;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
     
 }
 
-.compan{
+
+.services{
     display: flex ;
     padding-top: 50px;
     color: black;
-   
+    
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
     
 }
 
-.images{
+.companyMAF{
+    display: flex ;
+    color: black;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+
+.img2{
     display: flex;
-    gap: 30px;
-   
+    justify-content: space-evenly;
+    padding: 10px;
     
 }
 
-.list{
-   display: flex;
-   justify-content: flex-start;
-   align-items: flex-start;
-   flex-direction: column;
-   padding-top: 40px;
-   padding-bottom: 20px;
-    
-}
-
-
-
-.you{
-    border-radius: 50px;
-    padding: 40px;
-  
+.img4{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
     
 }
 
 .main{
-  display: grid;
-  justify-content: space-evenly;
-   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.border1{
+    border: 2px rgb(13, 200, 156) solid;
+    border-radius: 10px;
+    width: 32em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.border2{
+    border: 2px rgb(13, 200, 156) solid;
+    border-radius: 10px;
+    width: 32em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.border3{
+    border: 2px rgb(13, 200, 156) solid;
+    border-radius: 10px;
+    width: 32em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
     
 }
 
+.border4{
+    border: 2px rgb(13, 200, 156) solid;
+    border-radius: 10px;
+    width: 32em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.images{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.frame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6em;
+    
+
+    
+
+}
+
+.antibacterial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6.1em;
+}
+
+.information{
+   
+    display: grid;
+    grid-template-rows: 16em 16em ;
+    padding-top: 45px;
+    
+
+
+
+}
+
+.borderRadius{
+    border: 2px rgb(13, 200, 156) solid;
+    border-radius: 10px;
+    width: 74em;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 12em;
+    
+    
+    
+}
+
+.borderRadius2{
+    border: 2px rgb(13, 200, 156) solid;
+    border-radius: 10px;
+    width: 74em;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 12em; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer{
     display: flex;
-    background-color:  rgb(9, 185, 156);
+    background-color: rgb(13, 200, 156) ;
     flex-direction: row;
     justify-content: space-evenly;
     height: 200px;
@@ -112,6 +221,7 @@
     padding-top: 20px;
     gap: 20px;
     padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
 
@@ -153,44 +263,45 @@
     color: white;
 }
 
-.Maf{
-    background-color:  rgb(9, 185, 156);
-    border-radius: 40px;
-    height: 80px;
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+
+    .header{ 
+        width: 25em;
+        height: 6em;
+
+    }
+
+   .but{
+    width: 17em;
+    height: 2em;
     display: flex;
+    border-radius: 15px;
+   }
+
+   .number{
+  display: none;
+   }
+
+   .header2{
+    display: grid;
+    grid-template-columns:  80px 80px 80px;/
     
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
+   }
 
-.ddd{
-    background-color: white;
-    border-radius: 30px;
-    height: 50px;
-    width: 600px;
-    display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-
-}
-
-.butt{
-    background-color: rgb(255, 217, 0);
-    width: 200px;
-    height: 60px;
-    border-radius: 20px;
-
-}
-
-.p{
+   .ln{
     color: white;
-    width: 75px;
+   } 
+    .compan{
+        padding-left: 35px;
+    }
+
+    .footer{
+        flex-direction: column;
+        display: grid;
+        grid-template-columns:  80px 80px 80px;
+        height:20em;
+       
+    }
+
 }
-
-
-
-
-
-
-
